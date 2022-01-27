@@ -1,0 +1,41 @@
+.custom1{
+    font-size: xx-large;
+    font-style: arial;
+    color: white;
+}
+
+.custom2{
+    font-size: large;
+    font-style: arial;
+    color: white;
+}
+
+.box{
+    text-align: center;
+    font-style: normal;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: rgba(114, 112, 112, 0.952);
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.box2{
+    text-align: justify;
+    color:white;
+    margin-top: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+    height: 470px;
+    width: 500px;
+    padding:20px;
+    background-image: linear-gradient(grey, rgb(214, 211, 211));
+    border-radius: 15px;
+}
+
+.poza{
+    float: right;
+    margin: 15px 20px 0px 15px;
+    border-radius: 10px;
+    height: 300px;
+}

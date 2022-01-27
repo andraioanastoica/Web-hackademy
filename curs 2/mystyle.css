@@ -1,0 +1,85 @@
+.capul
+{
+    border-radius: 100%;
+    background-color: rgb(237, 207, 238);
+    width:10vw;
+    height:20vh;  
+    margin:auto; 
+    margin-top: 7%;
+}
+
+.corp
+{
+    height: 30vh;
+    width: 16vw;
+    margin: auto;
+}
+
+.lefty
+{
+    background-color: rgb(227, 192, 255);
+    width: 3vw;
+    height: 30vh;
+    display: inline-block;
+    position: relative;
+}
+
+.boody
+{
+    background-color: rgb(187, 148, 219);
+    width: 9vw;
+    height: 30vh;
+    display: inline-block;
+    position: relative;
+
+}
+
+.righty
+{
+    background-color: rgb(227, 192, 255);
+    width: 3vw;
+    height: 30vh;
+    display: inline-block;
+    position: relative;
+    animation-name: anim_mana;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration:3s;
+}
+
+.picioare
+{
+    height:25vh;
+    width: 9vw;
+    margin: auto;
+}
+
+.leftfoot
+{
+    background-color: rgb(155, 142, 212);
+    width: 4vw;
+    height: 25vh;
+    display: inline-block;
+    position: relative;
+}
+
+.rightfoot
+{
+    background-color: rgb(155, 142, 212);
+    width: 4vw;
+    height: 25vh;
+    display: inline-block;
+    position: relative;
+}
+
+@keyframes anim_mana 
+{
+    from{
+        transform-origin: top left;
+        transform: rotate(0deg);
+    }
+    to{
+        transform-origin: top left;
+        transform: rotate(-120deg);
+    }
+}
