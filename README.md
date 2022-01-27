@@ -7,6 +7,6 @@ Here are my projects!
 [project 2](https://andraioanastoica.github.io/project2.github.io/)<br>
 [jocul](https://andraioanastoica.github.io/project3.github.io/)<br>
 [project 4](https://andraioanastoica.github.io/project4.github.io/)<br>
-[final project](https://andraioanastoica.github.io/final-project/)<br?
+[final project](https://andraioanastoica.github.io/final-project/)<br>
 <br>
 hope you'll enjoy it :)
