@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="mystyle.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Project</title>
+</head>
+
+<body>
+  <p class="scris">To Do List</p>
+    <div class="lista">
+
+        <div class="ceva">
+          <!--  Placeholder HINT -->
+          <i class="fa fa-angle-down fa-lg custom" aria-hidden="true" onclick="checkAll()"></i>
+            <input id="newtask" placeholder="What's next?" class="input" /> 
+            
+        </div>
+
+        <div id="alltasks" class="todo"></div>
+
+        <footer>
+            <div class="footer">
+              <div>
+                <p class="items">2 Items left</p>
+              </div>
+  
+              <div>
+                  <button id="allclick" class="butoane" onclick="lowerbuttons('allclick')">All</button>
+                  <button id="nowclick" class="butoane" onclick="lowerbuttons('nowclick')">Now</button>
+                  <button id="doneclick" class="butoane" onclick="lowerbuttons('doneclick')">Done</button>
+              </div>
+  
+              <div>
+                <button class="clear" onclick="removeAll()">Clear completed</button>
+              </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

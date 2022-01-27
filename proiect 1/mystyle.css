@@ -1,0 +1,135 @@
+body {
+    background-color: lavenderblush;
+    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p {
+    display: inline-block;
+}
+
+.scris{
+    display: block;
+    color:rgb(211, 170, 204);
+    font-size: 3rem;
+    text-align: center;
+}
+
+.lista {
+    border: 1px  rgb(138, 122, 184);
+    width:35vw;
+    margin:auto;
+    box-shadow: 0 4px 8px 0 rgba(197, 169, 219, 0.562), 0 6px 20px 0 rgba(197, 169, 219, 0.562);
+    background-color: lavenderblush;
+
+}
+
+.custom
+{
+    padding-left: 5px;
+    padding-right: 5px;
+    color:rgb(138, 122, 184);
+}
+
+.custom:hover {
+    color: rgb(104, 30, 114);
+}
+
+.input {
+    margin: auto;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    border:none;
+    border-bottom:dotted;
+    outline:none;
+    border-color: rgb(211, 170, 204);
+    background-color: lavenderblush;
+    font-size: 1.5vw;
+    width: 31vw;
+}
+
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: rgb(138, 122, 184);
+}
+
+.task {
+    padding-bottom: 1vh;
+    padding-top:1vh;
+    color:rgb(211, 170, 204);
+    font-size: 1.5vw;
+    width: 30vw;
+    border-bottom: 1px solid rgba(197, 169, 219, 0.562);
+}
+
+::-webkit-input-placeholder {
+	font-style: italic;
+	color: rgba(186, 161, 218, 0.281);
+ }
+ :-moz-placeholder {
+	font-style: italic;  
+	color: rgba(186, 161, 218, 0.281);
+ }
+ ::-moz-placeholder {
+	font-style: italic;  
+	color: rgba(186, 161, 218, 0.281);
+ }
+ :-ms-input-placeholder {  
+	font-style: italic; 
+	color: rgba(186, 161, 218, 0.281);
+ }
+
+ .footer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .items {
+     color:rgb(211, 170, 204);
+     padding-left: 1rem;
+ }
+
+ .butoane {
+    display: block-inline;
+    color:rgb(211, 170, 204);;
+    background-color:transparent;
+    border:none;
+    cursor:pointer;
+    width:50px;
+ }
+
+ .butoane:hover {
+     color:rgb(145, 152, 216);
+     border-width: thin;
+     border: solid rgb(145, 152, 216);
+     margin-left: 0vh;
+ }
+
+ .clear {
+    color:rgb(211, 170, 204);
+    background-color:transparent;
+    border:none;
+    cursor:pointer;
+ }
+
+ .clear:hover  {
+    color:rgb(145, 152, 216);
+    margin-left: 0vh;
+}
+
+.complete {
+    color:rgba(177, 154, 173, 0.445);
+}
